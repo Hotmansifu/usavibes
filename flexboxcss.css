@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+   
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    background: #EBE7E7;
+    background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FMEnbcN6AXKE%2Fhqdefault.jpg&f=1&nofb=1");
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+    background: #034f75;
+    color:rgb(193, 193, 9)
+  }
+  
+  #gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+  }
+  
+  #gallery img {
+    width: 25%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 800px) {
+    #gallery img {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    #gallery img {
+      width: 100%;
+    }
+  }
+  .titllefont{
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+
+  }
+.tribute{
+background-color: rgba(117, 4, 51, 0.971);
+color:darkmagenta;
+ border-radius: 10px;
+ background-image:url("https://media.discordapp.net/attachments/707020561380933784/988177180859170866/IMG_6154.jpg?width=497&height=662");
+ filter:blur(5px);
+  -webkit-filter:blur(0.4px);
+  }
+.rights{
+    padding: 20px;
+    margin:20px;
+    color:rgb(48, 209, 174);
+    
+  }
+h3{
+    padding: 15px;
+    margin:20px;
+    text-shadow: #000000;
+    box-shadow: #de08de00;
+    text-align: left;
+}
